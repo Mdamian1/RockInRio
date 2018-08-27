@@ -1,0 +1,58 @@
+.centro{
+    background: #000000;
+    background:   linear-gradient(#000a66, #000000, #000a66);
+    background:   -moz-linear-gradient(#000a66, #000000, #000a66);
+    background:   -o-linear-gradient(#000a66, #000000, #000a66);
+    background:   -webkit-linear-gradient(#000a66, #000000, #000a66);
+}
+
+.centroInterior{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.video{
+    width: 100%;
+    max-width: 854px;
+    height: 480px;
+    margin: auto;
+}
+
+.centroMenu{
+    width: 100%;
+    max-width: 1000px;
+    height: 300px;
+    display: flex;
+}
+
+.centroOpcoes{
+    flex-grow: 1;
+    text-align: center;
+    line-height: 300px;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#fotos:hover,
+#video:hover,
+#musica:hover{
+    background-size: 110% 110%;
+    transition: .5s;
+}
+
+#fotos{
+    background-image: url(imagem1.jpg);
+    background-size: 100% 100%;
+}
+
+#video{
+    background-image: url(imagem2.jpg);
+    background-size: 100% 100%;
+}
+
+#musica{
+    background-image: url(imagem3.jpg); 
+    background-size: 100% 100%;
+}

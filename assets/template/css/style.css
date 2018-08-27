@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Topo */
+.topo{
+    height: 80px;
+    background-color: #010026;
+}
+
+.topoInterior{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.topo img{
+    height: 80px;
+}
+
+.menu{
+    width: 100%;
+    max-width: 400px;
+    height: 80px;
+    margin-left: auto;
+}
+
+.menu ul,
+.opcaoMenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.opcaoMenu{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    flex-grow: 1;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.opcaoMenu:hover{
+    background-color: #000000;
+}
+
+/* Rodapé */
+.rodape{
+    height: 200px;
+    background-color: #010026;
+}
+
+.rodapeInterior{
+    width: 100%;
+    max-width: 1000px;
+    height: 200px;
+    margin: auto;
+}
