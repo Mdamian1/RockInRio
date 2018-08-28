@@ -1,0 +1,27 @@
+.centro{
+    background: #000000;
+    background:   linear-gradient(#000a66, #000000, #000a66);
+    background:   -moz-linear-gradient(#000a66, #000000, #000a66);
+    background:   -o-linear-gradient(#000a66, #000000, #000a66);
+    background:   -webkit-linear-gradient(#000a66, #000000, #000a66);
+    padding-bottom: 20px;
+}
+
+.centroInterior{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: 500px;
+}
+
+.audio{
+    padding-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+audio{
+    width: 100%;
+    max-width: 800px;
+}
