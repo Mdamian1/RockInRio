@@ -11,9 +11,9 @@
             </div>
             <br><br>
             <div class="centroMenu">
-                <div class="centroOpcoes" id="fotos">FOTOS</div>
-                <div class="centroOpcoes" id="video">VÍDEOS</div>
-                <div class="centroOpcoes" id="musica">MÚSICAS</div>
+                <a class="centroOpcoes" href="<?php echo base_url('welcome/fotos')?>"><div class="centroOpcoes" id="fotos">FOTOS</div></a>
+                <a class="centroOpcoes" href="<?php echo base_url('welcome/videos')?>"><div class="centroOpcoes" id="video">VÍDEOS</div></a>
+                <a class="centroOpcoes" href="<?php echo base_url('welcome/musicas')?>"><div class="centroOpcoes" id="musica">MÚSICAS</div></a>
             </div>
             <br><br>
         </div>

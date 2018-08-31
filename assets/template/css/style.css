@@ -3,6 +3,10 @@ body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Topo */
 .topo{
     height: 80px;
@@ -45,6 +49,7 @@ body{
     flex-grow: 1;
     color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .opcaoMenu:hover{

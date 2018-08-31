@@ -1,6 +1,6 @@
 .modal_fotos{
     position: absolute;
-    top: 0vmin;
+    top: 0;
     background: rgba(26, 26, 26, 0.8);
     width: 100%;
     height: 100%;
@@ -9,8 +9,14 @@
 
 .box_image{
     margin: auto;
-    margin-top: 10vmin;
+    margin-top: 10%;
     background: rgb(26, 26, 26);
     width: 50%;
     height: 58%;
+}
+
+.img{
+    width: 100%;
+    max-width: 1000px;
+    
 }

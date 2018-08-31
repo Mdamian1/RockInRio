@@ -18,5 +18,9 @@ class Welcome extends CI_Controller {
         $this->load->view('template', $dados); 
     }
 
+    public function musica() {
+        $dados['ViewName'] = 'musica';
+        $this->load->view('template', $dados); 
+    }
 
 }
