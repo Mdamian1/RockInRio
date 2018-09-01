@@ -1,9 +1,9 @@
 .centro{
     background: #000000;
-    background:   linear-gradient(#000a66, #000000, #000a66);
-    background:   -moz-linear-gradient(#000a66, #000000, #000a66);
-    background:   -o-linear-gradient(#000a66, #000000, #000a66);
-    background:   -webkit-linear-gradient(#000a66, #000000, #000a66);
+    background:   linear-gradient(#010026, #000000, #010026);
+    background:   -moz-linear-gradient(#010026, #000000, #010026);
+    background:   -o-linear-gradient(#010026, #000000, #010026);
+    background:   -webkit-linear-gradient(#010026, #000000, #010026);
     padding-bottom: 20px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .fotos p{
-    background-color: #000000;
+    background-color: #000331;
     width: 320px;
     margin: auto;
     color: #ffffff;
@@ -26,4 +26,12 @@
     margin-top: 20px;
     width: 320px;
     height: 200px;
+    cursor: pointer;
+}
+
+.img-thumbnail{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #000331;
+    border-color: #000331;
 }
