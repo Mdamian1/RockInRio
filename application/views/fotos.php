@@ -10,7 +10,7 @@
             <div class="col-sm-12">
                 <?php for($i = 1 ; $i <= 9; $i++):?>
                     <div class="fotos col-sm-4 text-center">
-                        <img class="myImg img-thumbnail" src="<?php echo base_url('/assets/fotos/css/'). $i .'.jpg'?>">
+                        <img class="myImg" src="<?php echo base_url('/assets/fotos/css/'). $i .'.jpg'?>">
                         <p>Lorem Ipsum é simplesmente</p>
                     </div>
                 <?php endfor ?>

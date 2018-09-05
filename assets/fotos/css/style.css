@@ -16,9 +16,9 @@
 }
 
 .fotos p{
-    background-color: #000331;
     width: 320px;
     margin: auto;
+    font-size: 11px;
     color: #ffffff;
 }
 
@@ -27,11 +27,5 @@
     width: 320px;
     height: 200px;
     cursor: pointer;
-}
-
-.img-thumbnail{
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    background-color: #000331;
-    border-color: #000331;
+    margin-bottom: 10px;
 }
