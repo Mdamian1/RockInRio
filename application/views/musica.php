@@ -1,22 +1,122 @@
-<link rel="stylesheet" href="../assets/musicas/css/style.css">
-    <script src="http://freeshared.org/js/jquery.js"></script>
-	<script src="http://freeshared.org/js/bootstrap.js"></script>
-	<script src="http://freeshared.org/js/bootstrap.min.js"></script>
-	<script src="http://freeshared.org/js/npm.js"></script>
-<article>
-    <br>
-	<div class="col-md-12">
-		<audio id="audio" preload="auto"></audio>
-		<div class="btn-group">
-			<button onclick="Play('music.mp3','audio');" class="btn btn-custom"><span title="Play" id="play" class="glyphicon glyphicon-play aligned"></span></button>
-			<button onclick="Stop('music.mp3','audio');" class="btn btn-custom"><span title="Stop" id="stop" class="glyphicon glyphicon-stop aligned"></span></button>
-			<button onclick="Restart('music.mp3','audio');" class="btn btn-custom"><span title="Restart" id="restart" class="glyphicon glyphicon-step-backward aligned"></span></button>
-			<button onclick="Backward5('music.mp3','audio');" class="btn btn-custom"><span title="-5 seconds" id="play" class="glyphicon glyphicon-fast-backward aligned"></span></button>
-			<button onclick="Forward5('music.mp3','audio');" class="btn btn-custom"><span title="+5 seconds" id="play" class="glyphicon glyphicon-fast-forward aligned"></span></button>
-			<button onclick="Backward1('music.mp3','audio');" class="btn btn-custom"><span title="-1 second" id="play" class="glyphicon glyphicon-chevron-left aligned"></span></button>
-			<button onclick="Forward1('music.mp3','audio');" class="btn btn-custom"><span title="+1 second" id="play" class="glyphicon glyphicon-chevron-right aligned"></span></button>
-			<button onclick="VolumeUp('music.mp3','audio');" class="btn btn-custom"><span title="Volume Up" id="volumeup" class="glyphicon glyphicon-plus aligned"></span></button>
-			<button onclick="VolumeDown('music.mp3','audio');" class="btn btn-custom"><span title="Volume Down" id="volumedown" class="glyphicon glyphicon-minus aligned"></span></button>
-		</div>
-	</div>
-</article>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tag Audio HTML5</title>
+        <script src="../assets/library/jquery.min.js"></script>
+        <script src="../assets/library/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="<?php echo base_url('assets/library/bootstrap.min.css')?>">
+        <style>
+            .box-audio{
+                position: start;
+                margin-left: -38vmin;
+                margin-top: 2vmin;
+            }
+        </style>
+    </head>
+<body>
+ 
+<div class="container">
+
+    <div class="panel panel-default col-sm-5 pull-left box-audio">
+        <div class="panel-heading">
+            <h3 class="panel-title">Principais Musicas Tocadas no Evento</h3>
+        </div>
+        <div class="panel-body">
+            <div class="panel-body text-center">
+                <div class="row col-md-12 col-xs-12 songs"><br>
+                    <p>Titulo</p>
+                    <audio controls
+                    data-info-album-art="https://farm9.staticflickr.com/8642/16106988340_058071cdbe_z.jpg"
+                    data-info-album-title="8874"
+                    data-info-artist="Iain Houston and Felix Gibbons"
+                    data-info-title="BeBop Aliens"
+                    data-info-label="Independent"
+                    data-info-year="2005"
+                    data-info-att="Music: Iain Houston and Felix Gibbons."
+                    data-info-att-link="https://github.com/iainhouston">
+                    <source src="http://playerdemo.iainhouston.com/tests/BeBopAliens.ogg" type="audio/ogg" />
+                    <source src="http://playerdemo.iainhouston.com/tests/BeBopAliens.mp3" type="audio/mpeg" />
+                    </audio>
+                </div>
+
+                <div class="row col-md-12 col-xs-12"><br>
+                    <p>Titulo</p>
+                    <audio controls
+                    data-info-album-art="https://farm9.staticflickr.com/8642/16106988340_058071cdbe_z.jpg"
+                    data-info-album-title="8874"
+                    data-info-artist="Iain Houston and Felix Gibbons"
+                    data-info-title="BeBop Aliens"
+                    data-info-label="Independent"
+                    data-info-year="2005"
+                    data-info-att="Music: Iain Houston and Felix Gibbons."
+                    data-info-att-link="https://github.com/iainhouston">
+                    <source src="http://playerdemo.iainhouston.com/tests/BeBopAliens.ogg" type="audio/ogg" />
+                    <source src="http://playerdemo.iainhouston.com/tests/BeBopAliens.mp3" type="audio/mpeg" />
+                    </audio>
+                </div>
+
+                <div class="row col-md-12 col-xs-12"><br>
+                    <p>Titulo</p>
+                    <audio controls
+                    data-info-album-art="https://farm9.staticflickr.com/8642/16106988340_058071cdbe_z.jpg"
+                    data-info-album-title="8874"
+                    data-info-artist="Iain Houston and Felix Gibbons"
+                    data-info-title="BeBop Aliens"
+                    data-info-label="Independent"
+                    data-info-year="2005"
+                    data-info-att="Music: Iain Houston and Felix Gibbons."
+                    data-info-att-link="https://github.com/iainhouston">
+                    <source src="http://playerdemo.iainhouston.com/tests/BeBopAliens.ogg" type="audio/ogg" />
+                    <source src="http://playerdemo.iainhouston.com/tests/BeBopAliens.mp3" type="audio/mpeg" />
+                    </audio>
+                </div>
+
+                <div class="row col-md-12 col-xs-12"><br>
+                    <p>Titulo</p>
+                    <audio controls
+                    data-info-album-art="https://farm9.staticflickr.com/8642/16106988340_058071cdbe_z.jpg"
+                    data-info-album-title="8874"
+                    data-info-artist="Iain Houston and Felix Gibbons"
+                    data-info-title="BeBop Aliens"
+                    data-info-label="Independent"
+                    data-info-year="2005"
+                    data-info-att="Music: Iain Houston and Felix Gibbons."
+                    data-info-att-link="https://github.com/iainhouston">
+                    <source src="http://playerdemo.iainhouston.com/tests/BeBopAliens.ogg" type="audio/ogg" />
+                    <source src="http://playerdemo.iainhouston.com/tests/BeBopAliens.mp3" type="audio/mpeg" />
+                    </audio>
+                </div>
+            
+                <div class="row col-md-12 col-xs-12"><br>
+                    <p>Titulo</p>
+                    <audio controls>
+                    <source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+                    <source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                    <a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+                    An html5-capable browser is required to play this audio. 
+                    </audio>
+                </div>
+                <div class="row col-md-12 col-xs-12"><br>
+                    <p>Titulo</p>   
+                    <audio controls>
+                    <source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+                    <source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                    <a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+                    An html5-capable browser is required to play this audio. 
+                    </audio>
+                </div>
+                <div class="row col-md-12 col-xs-12"><br>
+                    <p>Titulo</p>
+                    <audio controls>
+                    <source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+                    <source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                    <a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+                    An html5-capable browser is required to play this audio. 
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+</html>
