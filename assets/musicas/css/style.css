@@ -1,4 +1,6 @@
 .centro{
+
+    padding-top: 20px;
     background: #000000;
     background:   linear-gradient(#010026, #000000, #010026);
     background:   -moz-linear-gradient(#010026, #000000, #010026);
@@ -7,21 +9,10 @@
     padding-bottom: 20px;
 }
 
-.centroInterior{
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    height: 500px;
-}
-
-.audio{
-    padding-top: 20px;
-    width: 100%;
-    max-width: 800px;
+.table{
     margin: auto;
 }
 
-audio{
-    width: 100%;
-    max-width: 800px;
+span{
+    display:none;
 }
