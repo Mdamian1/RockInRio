@@ -1,5 +1,4 @@
-.centro{
-
+.fundo{
     padding-top: 20px;
     background: #000000;
     background:   linear-gradient(#010026, #000000, #010026);
@@ -9,6 +8,17 @@
     padding-bottom: 20px;
 }
 
+.lista{
+    background-color: #ffffff;
+}
+
+.foto{
+    height: inherit;
+}
+
+audio{
+    width: 100%;
+}
 
 span{
     display:none;
