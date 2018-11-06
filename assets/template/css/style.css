@@ -56,11 +56,13 @@ body{
 
 /* Rodapé */
 .rodape{
+    height: 200px;
     background-color: #010026;
 }
 
 .rodapeInterior{
     width: 100%;
     max-width: 1000px;
+    height: 200px;
     margin: auto;
 }
