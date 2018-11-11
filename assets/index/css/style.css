@@ -30,18 +30,22 @@ a{
     display: flex;
 }
 
-.centroOpcoes{
-    flex-grow: 1;
-    text-align: center;
-    line-height: 300px;
+.a{
     color: #ffffff;
     font-size: 25px;
+    text-align: center;
+}
+
+.centroOpcoes{
+    flex-grow: 1;
+    line-height: 300px;
     cursor: pointer;
 }
 
 #fotos:hover,
 #video:hover,
 #musica:hover{
+    color: #ffffff;
     background-size: 110% 110%;
     transition: .3s;
 }
