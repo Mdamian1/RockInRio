@@ -37,11 +37,13 @@
     <footer>
         <div class="container-fluid rodape">
             <div class="row justify-content-center align-items-center rodapeInterior">
-                    <pre class="texto">
-Disciplina: Multimidia web
-Alunos: Matheus Damian Pereira TSI-17
-        Dionathan de Cordova TSI-17
-                    </pre>
+            <div class="text-center texto">
+               <p>Disciplina: Multimidia web</p>
+                <p>
+                    Alunos: Matheus Damian Pereira TSI-17 <br>
+                            Dionathan de Cordova TSI-17
+                </p>
+            </div>
             </div>
         </div>
     </footer>

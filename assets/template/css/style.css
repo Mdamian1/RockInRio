@@ -7,8 +7,8 @@ body{
 
 /* Topo */
 .topo{
-    height: 80px;
-    background-color: #010026;
+    height: 85px;
+    background-color: #0a0707d0;
 }
 
 .topoInterior{
@@ -59,8 +59,9 @@ body{
 
 /* Rodapé */
 .rodape{
+    margin-top:-2px;
     height: 200px;
-    background-color: #010026;
+    background-color: #0a0707d0;
 }
 
 .rodapeInterior{
