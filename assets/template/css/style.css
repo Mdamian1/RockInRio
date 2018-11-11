@@ -30,7 +30,7 @@ body{
 }
 
 .menu ul,
-.opcaoMenu{
+.menu li{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -40,17 +40,20 @@ body{
     display: flex;
 }
 
-.opcaoMenu{
+.a{
+    text-decoration: none;
     height: 80px;
     line-height: 80px;
     text-align: center;
     flex-grow: 1;
-    color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
 }
 
-.opcaoMenu:hover{
+.opcaoMenu{
+    color: #ffffff;
+}
+
+.a:hover{
+    text-decoration: none;
     background-color: #000000;
 }
 
@@ -61,8 +64,9 @@ body{
 }
 
 .rodapeInterior{
-    width: 100%;
-    max-width: 1000px;
     height: 200px;
-    margin: auto;
+}
+
+.texto{
+    color: white;
 }
