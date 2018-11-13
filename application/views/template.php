@@ -13,7 +13,7 @@
         <div class="topo">
             <div class="topoInterior">
                 <a href="<?php echo base_url('/')?>"><img src="<?php echo base_url('assets/template/css/logo_rio.png')?>" alt=""></a>
-                <div class="menu">
+                <div class="menu" style="font-size: 16px">
                     <ul>
                         <a class="a" href="<?php echo base_url('welcome/fotos')?>">
                             <li class="opcaoMenu">FOTOS</li>

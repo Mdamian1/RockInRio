@@ -5,6 +5,10 @@ body{
     text-decoration: none;
 }
 
+a{
+    font-size: 16px;
+}
+
 .fundo{
     padding-top: 20px;
     background: #000000;
